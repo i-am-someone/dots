@@ -1,0 +1,54 @@
+! special
+*.foreground:   #d4c8da
+*.background:   #120c15
+*.cursorColor:  #d4c8da
+
+! black
+*.color0:       #785886
+*.color8:       #7f9f66
+
+! red
+*.color1:       #b217ff
+*.color9:       #93db28
+
+! green
+*.color2:       #cd63ff
+*.color10:      #ff085c
+
+! yellow
+*.color3:       #b467dc
+*.color11:      #da87ff
+
+! blue
+*.color4:       #775d84
+*.color12:      #cf33b3
+
+! magenta
+*.color5:       #9c80aa
+*.color13:      #6574f5
+
+! cyan
+*.color6:       #bfadc9
+*.color14:      #03ab82
+
+! white
+*.color7:       #88858a
+*.color15:      #e7e0ea
+
+URxvt.font: -misc-fixed-medium-*-normal--15-*-*-*-*-*-*-*
+URxvt.boldFont: -misc-fixed-medium-*-normal--15-*-*-*-*-*-*-*
+URxvt.italicFont: -misc-fixed-medium-*-normal--15-*-*-*-*-*-*-*
+URxvt.boldItalicfont: -misc-fixed-medium-*-normal--15-*-*-*-*-*-*-*
+URxvt.geometry: 80x20
+URxvt.internalBorder: 20
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 20
+URxvt.iso14755: false
+
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard

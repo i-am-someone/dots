@@ -1,0 +1,49 @@
+unbind-key	all
+unbind-mouse	all
+
+sticky yes
+
+bind-key 4-d		menu-exec
+bind-key 4-q		window-close
+bind-key 4-f		window-fullscreen
+bind-key 4-s		menu-window
+bind-key 4-Return	"urxvt -e 'kshl'"
+bind-key 4-r		restart
+bind-key 4-g		menu-group
+bind-key 4-m		window-hide
+
+bind-key 4-p		"scrot '/home/tortea/Pictures/%s.png'"
+
+bind-key 4-t		window-htile
+bind-key 4S-t		window-vtile
+
+bind-key 4-v		window-vmaximize
+bind-key 4-h		window-hmaximize
+
+bind-key M-Tab		window-cycle
+bind-key MS-Tab		window-rcycle
+
+bind-key 4S-1		window-movetogroup-1
+bind-key 4S-2		window-movetogroup-2
+bind-key 4S-3		window-movetogroup-3
+bind-key 4S-4		window-movetogroup-4
+bind-key 4S-5		window-movetogroup-5
+
+bind-key 4-1		group-only-1
+bind-key 4-2		group-only-2
+bind-key 4-3		group-only-3
+bind-key 4-4		group-only-4
+bind-key 4-5		group-only-5
+
+bind-key 4-c		window-group
+
+bind-key CMS-0		quit
+
+bind-mouse 4-3		window-resize
+bind-mouse 4-2		window-hide
+bind-mouse 4-1		window-move
+
+color activeborder	"#055"
+borderwidth		1
+
+autogroup 2 "Firefox"
